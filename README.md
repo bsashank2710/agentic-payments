@@ -20,13 +20,15 @@ A cross-chain payment analytics system powered by Hedera Agent Kit and Base netw
 
 ## ✨ Design Features
 
-- **Dark Neon Theme**: Professional fintech aesthetics with Base Blue (#0052FF) and Hedera Purple (#7A3EF2)
-- **Glassmorphism**: Elegant frosted glass effects with subtle borders and backdrop blur
-- **Smooth Animations**: Framer Motion powered transitions and count-up animations
-- **Interactive UI**: Hover effects, copy-to-clipboard buttons, status indicators
-- **Modern Typography**: Inter for UI, Space Grotesk for headlines
+- **Professional Design**: MAANG-quality UI inspired by Stripe, Vercel, and Linear
+- **Clean Dark Theme**: Sophisticated color palette with refined accent colors
+- **Purposeful Animations**: Minimal transitions only where they enhance UX (KPI count-up)
+- **Interactive Elements**: Subtle hover effects, copy buttons, status indicators
+- **System Typography**: Native fonts for optimal performance and familiarity
 - **Toast Notifications**: Real-time user feedback with Sonner
-- **Responsive Design**: Mobile-first approach with adaptive layouts
+- **Responsive Layout**: Professional grid systems and proper breakpoints
+- **Form Design**: Clean inputs with proper focus states and validation
+- **Data Tables**: Professional tables with clear hierarchy and spacing
 
 ## ⚠️ Important Notes
 
