@@ -12,11 +12,17 @@ A cross-chain payment analytics system powered by Hedera Agent Kit and Base netw
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: Next.js 16, React, TypeScript
-- **Styling**: Tailwind CSS
-- **Wallet Integration**: RainbowKit, Wagmi
+- **Frontend**: Next.js 14, React 18, TypeScript
+- **Styling**: Tailwind CSS 3
+- **Wallet Integration**: RainbowKit, Wagmi, Viem
 - **Blockchain**: Base Network, Hedera
 - **Analytics**: Blockscout API
+
+## ⚠️ Important Notes
+
+- **Agent Receipts**: Currently stored in-memory (not persistent). For production use, implement a database backend.
+- **Development**: Configured for Replit environment (port 5000, 0.0.0.0 binding)
+- **Real Data**: Dashboard pulls actual transaction data from Base network via Blockscout API
 
 ## 📦 Installation
 
@@ -52,14 +58,14 @@ npm run dev
 ## 🌐 Usage
 
 ### Dashboard
-Visit `http://localhost:3000/dashboard` to view:
+Visit `http://localhost:5000/dashboard` (or port 3000 for non-Replit) to view:
 - Real-time payment analytics
 - Base network transaction data
 - Agent payment receipts
 - Total revenue calculations
 
 ### Payment Interface
-Visit `http://localhost:3000/pay` to:
+Visit `http://localhost:5000/pay` (or port 3000 for non-Replit) to:
 - Connect your wallet (supports 20+ wallets)
 - Enter payment amount
 - Specify recipient address
