@@ -48,6 +48,12 @@ Thumbs.db
 *.tmp
 *.temp
 
+# Large files and archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
 # Lock files (keep package-lock.json but ignore others)
 yarn.lock
 pnpm-lock.yaml
