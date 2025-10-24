@@ -18,11 +18,22 @@ A cross-chain payment analytics system powered by Hedera Agent Kit and Base netw
 - **Blockchain**: Base Network, Hedera
 - **Analytics**: Blockscout API
 
+## ✨ Design Features
+
+- **Dark Neon Theme**: Professional fintech aesthetics with Base Blue (#0052FF) and Hedera Purple (#7A3EF2)
+- **Glassmorphism**: Elegant frosted glass effects with subtle borders and backdrop blur
+- **Smooth Animations**: Framer Motion powered transitions and count-up animations
+- **Interactive UI**: Hover effects, copy-to-clipboard buttons, status indicators
+- **Modern Typography**: Inter for UI, Space Grotesk for headlines
+- **Toast Notifications**: Real-time user feedback with Sonner
+- **Responsive Design**: Mobile-first approach with adaptive layouts
+
 ## ⚠️ Important Notes
 
 - **Agent Receipts**: Currently stored in-memory (not persistent). For production use, implement a database backend.
 - **Development**: Configured for Replit environment (port 5000, 0.0.0.0 binding)
 - **Real Data**: Dashboard pulls actual transaction data from Base network via Blockscout API
+- **Form Validation**: Client-side validation for addresses and amounts with user-friendly error messages
 
 ## 📦 Installation
 
